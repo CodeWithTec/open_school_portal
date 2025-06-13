@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+}
+
+/* Login section of the project  */
+
+.login-section{
+    height: 100vh;
+    background-color: rgb(209, 211, 211);
+}
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;
+    border-radius: 30px;
+}
+
+.login input{
+    width: 500px;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 0;
+    align-items: center;
+}
+
+/* media Query  */
+@media screen and (max-width: 780px){
+    .login input{
+        width: 300px;
+    }
+}
+.login input:focus{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 3px solid black;
+}
+
+.login .btn{
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.login .btn:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    border: 2px solid black;
+}
+
+/* Admin Dashboard */
+
+.sidebar { height: 100vh; background-color: #343a40; }
+    .sidebar .nav-link, .sidebar .navbar-brand { color: #ffffff; }
+    .sidebar .nav-link.active { background-color: #495057; }
+    .content { padding: 20px; }
+    .table thead { background-color: #343a40; color: white; }
